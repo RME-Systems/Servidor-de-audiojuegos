@@ -1,2 +1,3 @@
 cytolk
+Synthizer
 pygame
