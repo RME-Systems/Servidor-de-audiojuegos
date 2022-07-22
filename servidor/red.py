@@ -17,7 +17,7 @@ def main():
         conexion, direccion = s.accept()
         c = Cliente.Cliente(conexion, direccion)
         c.start()
-        print("%s:%d se ha conectado." % conexion)
+        
 
 
 if __name__ == "__main__":
