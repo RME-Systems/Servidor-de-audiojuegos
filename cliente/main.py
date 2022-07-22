@@ -25,6 +25,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 ejecutar = False
+                pygame.time.delay(2)
         teclas = pygame.key.get_pressed()
         if teclas[pygame.K_UP]:
             s.send(bytes('Hola, mundo','UTF-8'))
